@@ -1,0 +1,3 @@
+[submodule "Submodules/Gameloop.Vdf"]
+	path = Submodules/Gameloop.Vdf
+	url = git@github.com:shravan2x/Gameloop.Vdf.git
