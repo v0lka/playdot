@@ -6,7 +6,7 @@
     <PublishSingleFile>true</PublishSingleFile>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Version>0.3.0</Version>
+    <Version>0.5.0</Version>
     <Authors>Vladimir Kochetkov</Authors>
     <Company></Company>
     <Product>Dot Launcher</Product>
@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Submodules\Gameloop.Vdf\Gameloop.Vdf\Gameloop.Vdf.csproj" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>

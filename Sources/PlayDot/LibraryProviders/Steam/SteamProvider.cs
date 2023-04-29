@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using Gameloop.Vdf;
 using PlayDot.Utils;
+using PlayDot.Utils.Vdf;
 
 namespace PlayDot.LibraryProviders.Steam
 {
