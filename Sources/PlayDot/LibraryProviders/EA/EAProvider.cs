@@ -74,7 +74,7 @@ internal class EaProvider : ILibraryProvider
                     {
                         if (element.Name == "name")
                         {
-                            name = element.FirstChild?.Value;
+                            name = StringExtensions.NormalizeGameName(element.FirstChild?.Value);
                             break;
                         }
                     }
